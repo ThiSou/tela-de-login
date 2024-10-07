@@ -3,8 +3,8 @@ import flet as ft
 def main(page:ft.Page):
   page.horizontal_alignment = 'center'
   page.vertical_alignment = 'center'
-  #page.window_maximized = True
-  #page.window_resizable = False
+  page.window_maximized = True
+  page.window_resizable = False
 
   def logar(e):
     page.remove(Register)
